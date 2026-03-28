@@ -15,11 +15,14 @@ export default function Home() {
       <Navbar />
       <main>
         <HeroSection />
-        <OrderFlowSection />
+        {/* "How It Works" scrolls here */}
+        <div id="how-it-works"><OrderFlowSection /></div>
         <RestaurantSection />
-        <DeliverySection />
+        {/* "Features" scrolls here */}
+        <div id="features"><DeliverySection /></div>
         <CustomerSection />
-        <CTASection />
+        {/* "Pricing" scrolls here */}
+        <div id="pricing"><CTASection /></div>
       </main>
       <Footer />
     </>
