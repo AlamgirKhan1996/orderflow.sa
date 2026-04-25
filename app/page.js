@@ -902,7 +902,7 @@ function Footer({ lang }) {
 /* ══════════════════════════════════════════════════════════
    ROOT — single fixed header wrapper solves everything
    ══════════════════════════════════════════════════════════ */
-export default function App() {
+export function App() {
   const [lang, setLang] = useState("ar");
   const [spots] = useState(5);
 
