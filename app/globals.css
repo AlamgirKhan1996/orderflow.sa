@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.tajawal.com/1.1.3/tajawal.css');
 
 /* ─── CSS Variables ──────────────────────────────────────────────────────── */
 :root {
@@ -15,6 +16,7 @@
 
   --font-display: 'Syne', sans-serif;
   --font-body:    'Outfit', sans-serif;
+  --font-arabic:  'Tajawal', sans-serif;
 
   --radius-sm:  8px;
   --radius-md:  16px;
