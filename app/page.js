@@ -592,7 +592,7 @@ function HowItWorks({ lang }) {
             </span>
           </div>
           <h2 className={`reveal ${inView ? "in" : ""} d1`} style={{ fontFamily: f, fontWeight: 900, fontSize: "clamp(22px,4vw,44px)", letterSpacing: ar ? "-.01em" : "-.03em", marginBottom: 12 }}>
-            {ar ? "من الاتفاق للطلبة الأولى — في 24 ساعة." : "From agreement to first order — in 24 hours."}
+            {ar ? "من الاتفاق لللطلبات الأولى — في 24 ساعة." : "From agreement to first order — in 24 hours."}
           </h2>
           <p className={`reveal ${inView ? "in" : ""} d2`} style={{ fontFamily: f, fontSize: 15, color: "var(--muted2)", maxWidth: 420, margin: "0 auto" }}>
             {ar ? "ما في تقنية تتعلمها. كل شيء على واتساب." : "No technology to learn. Everything on WhatsApp."}
