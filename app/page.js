@@ -476,7 +476,7 @@ function Calc({ lang }) {
               {ar ? "أنت تخسر كل شهر" : "You lose every month"}
             </div>
             <div style={{ fontFamily: f, fontWeight: 900, fontSize: "clamp(48px,9vw,82px)", color: "var(--red)", lineHeight: 1 }}>
-              SAR {count.toLocaleString()}
+              SAR {monthly.toLocaleString()}
             </div>
             <div style={{ fontFamily: f, fontSize: 14, color: "var(--muted)", marginTop: 8, marginBottom: 24 }}>
               {ar ? `وسنوياً تخسر SAR ${(monthly * 12).toLocaleString()}!` : `Yearly: SAR ${(monthly * 12).toLocaleString()} lost forever!`}
@@ -486,7 +486,7 @@ function Calc({ lang }) {
                 {ar ? "مع OrderFlow — تخلص من هذه الخسارة نهائياً" : "With OrderFlow — eliminate this loss permanently"}
               </div>
               <div style={{ fontFamily: f, fontWeight: 900, fontSize: 26, color: "var(--green)" }}>
-                SAR {monthly.toLocaleString()} {ar ? "تبقى في جيبك كل شهر" : "stays in your pocket every month"}
+                SAR {monthly.toLocaleString()} {ar ? "تبقى في جيبك كل شهر" : " - "}
               </div>
             </div>
           </div>
